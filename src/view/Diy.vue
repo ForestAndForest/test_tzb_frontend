@@ -27,7 +27,7 @@ import IconBuy from "../components/IconBuy.vue";
             alt="DIY手工艺术品"
             class="w-full h-48 object-cover rounded-2xl"
             height="200"
-            src="/tchp.jpeg"
+            src="/src/assets/tchp.jpeg"
             style="aspect-ratio: 300 / 200; object-fit: cover"
             width="300"
           />
@@ -50,7 +50,7 @@ import IconBuy from "../components/IconBuy.vue";
             alt="DIY手工艺术品"
             class="w-full h-48 object-cover rounded-2xl"
             height="200"
-            src="/md.webp"
+            src="/src/assets/md.webp"
             style="aspect-ratio: 300 / 200; object-fit: cover"
             width="300"
           />
@@ -73,7 +73,7 @@ import IconBuy from "../components/IconBuy.vue";
             alt="DIY手工艺术品"
             class="w-full h-48 object-cover rounded-2xl"
             height="200"
-            src="/gj.webp"
+            src="/src/assets/gj.webp"
             style="aspect-ratio: 300 / 200; object-fit: cover"
             width="300"
           />
@@ -96,7 +96,7 @@ import IconBuy from "../components/IconBuy.vue";
             alt="DIY手工艺术品"
             class="w-full h-48 object-cover rounded-2xl"
             height="200"
-            src="/zsp.webp"
+            src="/src/assets/zsp.webp"
             style="aspect-ratio: 300 / 200; object-fit: cover"
             width="300"
           />
@@ -119,7 +119,7 @@ import IconBuy from "../components/IconBuy.vue";
             alt="DIY手工艺术品"
             class="w-full h-48 object-cover rounded-2xl"
             height="200"
-            src="/tchp.jpeg"
+            src="/src/assets/tchp.jpeg"
             style="aspect-ratio: 300 / 200; object-fit: cover"
             width="300"
           />
@@ -142,7 +142,7 @@ import IconBuy from "../components/IconBuy.vue";
             alt="DIY手工艺术品"
             class="w-full h-48 object-cover rounded-2xl"
             height="200"
-            src="/md.webp"
+            src="/src/assets/md.webp"
             style="aspect-ratio: 300 / 200; object-fit: cover"
             width="300"
           />
@@ -165,7 +165,7 @@ import IconBuy from "../components/IconBuy.vue";
             alt="DIY手工艺术品"
             class="w-full h-48 object-cover rounded-2xl"
             height="200"
-            src="/gj.webp"
+            src="/src/assets/gj.webp"
             style="aspect-ratio: 300 / 200; object-fit: cover"
             width="300"
           />
@@ -188,7 +188,7 @@ import IconBuy from "../components/IconBuy.vue";
             alt="DIY手工艺术品"
             class="w-full h-48 object-cover rounded-2xl"
             height="200"
-            src="/zsp.webp"
+            src="/src/assets/zsp.webp"
             style="aspect-ratio: 300 / 200; object-fit: cover"
             width="300"
           />
@@ -268,6 +268,7 @@ import IconBuy from "../components/IconBuy.vue";
             </div>
           </div>
           <div
+            @click="$router.push('/diyForm')"
             style="border-radius: 10px"
             class="text-2xl font-bold mb-4 px12 py-2 mt-3 bg-blue-400 flex justify-center items-center text-white cursor-pointer"
           >

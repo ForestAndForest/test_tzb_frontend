@@ -2,6 +2,16 @@
 import IconForward from "../components/IconForward.vue";
 import HomeCard from "../components/HomeCard.vue";
 
+import JMJ from "../assets/jmj.jpg";
+import QTSS from "../assets/qtss.jpg";
+import YZ from "../assets/yz.jpg";
+import JZ from "../assets/jz.webp";
+
+import TCHP from "../assets/tchp.jpeg";
+import GJ from "../assets/gj.webp";
+import MD from "../assets/md.webp";
+import JZZ from "../assets/zsp.webp";
+
 //特色展品列表
 const cards = [
   {
@@ -9,8 +19,31 @@ const cards = [
     title: "黄金面具",
     description:
       "三星堆遗址祭祀区5号祭祀坑中出土的金器。经检测，其含金量约为85%，银含量约为13%至14%，还有其他杂质。",
-    image: "/jmj.jpg",
+    image: JMJ,
     imageAlt: "黄金面具",
+  },
+  {
+    id: 1,
+    title: "青铜神兽",
+    description:
+      "青铜神兽，出土于三星堆遗址祭祀区三号坑坑底，临近西壁。长28.5厘米、高26.4厘米、宽23厘米。整件器物呈昂首挺胸、四肢蹲伏于地的走兽形象，后肢缺失，双耳、尾部等处残损。神兽头顶有一角，“臣”字眼，扁长圆形阔口，短颈，躯干修长，挺胸，塌腰，四肢外张，蹄足，尾部上翘后弯，体表有云雷纹条带装饰，整体形态健壮有力。",
+    image: QTSS,
+    imageAlt: "青铜神兽",
+  },
+  {
+    id: 2,
+    title: "玉琮",
+    description: "三星堆文化玉琮为三星堆文化文物，现收藏于北京中藏会馆。",
+    image: YZ,
+    imageAlt: "玉琮",
+  },
+  {
+    id: 3,
+    title: "金杖",
+    description:
+      "金杖是用金条捶打成金皮后，再包卷在木杖上；出土时木杖已炭化，仅存金皮，金皮内还残留有炭化的木渣。",
+    image: JZ,
+    imageAlt: "金杖",
   },
 ];
 
@@ -20,8 +53,29 @@ const cards1 = [
     id: 0,
     title: "陶瓷花瓶",
     description: "精美的陶瓷花瓶,手工制作,独一无二。",
-    image: "/tchp.jpeg",
+    image: TCHP,
     imageAlt: "陶瓷花瓶",
+  },
+  {
+    id: 1,
+    title: "挂件",
+    description: "精美的挂件,手工制作,独一无二。",
+    image: GJ,
+    imageAlt: "挂件",
+  },
+  {
+    id: 2,
+    title: "剪纸",
+    description: "精美的剪纸,手工制作,独一无二。",
+    image: JZZ,
+    imageAlt: "剪纸",
+  },
+  {
+    id: 3,
+    title: "木雕",
+    description: "精美的木雕,手工制作,独一无二。",
+    image: MD,
+    imageAlt: "木雕",
   },
 ];
 </script>
@@ -60,7 +114,11 @@ const cards1 = [
         </div>
       </div>
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        <HomeCard v-for="data in cards" :data="data" />
+        <HomeCard
+          v-for="data in cards"
+          :data="data"
+          @click="$router.push('/detail')"
+        />
       </div>
       <!--DIY手工艺术品展示-->
       <div>
@@ -78,7 +136,11 @@ const cards1 = [
         </div>
       </div>
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        <HomeCard v-for="data in cards1" :data="data" />
+        <HomeCard
+          v-for="data in cards1"
+          :data="data"
+          @click="$router.push('/diyDetail')"
+        />
       </div>
     </div>
   </main>
@@ -86,7 +148,7 @@ const cards1 = [
 
 <style scoped>
 .header {
-  background-image: url("/EAXpisNzx9.jpg");
+  background-image: url("/src/assets/EAXpisNzx9.jpg");
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   width: 1180px;

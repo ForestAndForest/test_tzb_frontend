@@ -14,6 +14,7 @@
               >
                 姓名 </label
               ><input
+                style="background-color: #f1f1f1"
                 id="name"
                 class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                 placeholder="请输入您的姓名"
@@ -26,6 +27,7 @@
               >
                 手机号 </label
               ><input
+                style="background-color: #f1f1f1"
                 id="phone"
                 class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                 placeholder="请输入您的手机号"
@@ -41,6 +43,7 @@
                 预约日期
               </label>
               <button
+                style="background-color: #f1f1f1"
                 aria-controls="radix-:ra:"
                 aria-expanded="false"
                 aria-haspopup="dialog"
@@ -82,6 +85,7 @@
                 预约时间
               </label>
               <button
+                style="background-color: #f1f1f1"
                 aria-autocomplete="none"
                 aria-controls="radix-:rb:"
                 aria-expanded="false"
@@ -141,6 +145,7 @@
                 参加人数
               </label>
               <button
+                style="background-color: #f1f1f1"
                 aria-autocomplete="none"
                 aria-controls="radix-:rl:"
                 aria-expanded="false"
@@ -198,6 +203,7 @@
                 DIY项目
               </label>
               <button
+                style="background-color: #f1f1f1"
                 aria-autocomplete="none"
                 aria-controls="radix-:rr:"
                 aria-expanded="false"
@@ -254,6 +260,7 @@
             >
               备注 </label
             ><textarea
+              style="background-color: #f1f1f1"
               id="note"
               class="flex w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 min-h-[100px]"
               placeholder="请输入您的备注信息"
@@ -261,7 +268,7 @@
           </div>
           <div class="flex justify-end">
             <button
-              class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2"
+              class="bg-green-400 text-white font-bold inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2"
               type="submit"
             >
               提交预约

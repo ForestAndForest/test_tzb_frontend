@@ -1,10 +1,6 @@
-<script lang="ts" setup>
-import Header from "../components/Header.vue";
-import Footer from "../components/Footer.vue";
-</script>
+<script lang="ts" setup></script>
 
 <template>
-  <Header />
   <section
     class="bg-[#f5f5f5] py-12 px-4 md:px-8 lg:px-12"
     style="min-height: calc(100vh - 273px)"
@@ -35,7 +31,7 @@ import Footer from "../components/Footer.vue";
             alt="DIY手工艺术品"
             class="w-full h-auto rounded-md"
             height="400"
-            src="/zsp.webp"
+            src="/src/assets/zsp.webp"
             style="aspect-ratio: 600 / 400; object-fit: cover"
             width="600"
           />
@@ -67,7 +63,6 @@ import Footer from "../components/Footer.vue";
       </div>
     </div>
   </section>
-  <Footer />
 </template>
 
 <style scoped></style>

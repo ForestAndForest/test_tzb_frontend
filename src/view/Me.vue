@@ -16,7 +16,7 @@ import DiyList from "../components/DiyList.vue";
                 ><img
                   alt="@username"
                   class="aspect-square h-full w-full"
-                  src="/images.jpg"
+                  src="/src/assets/images.jpg"
               /></span>
               <div>
                 <h3 class="text-xl font-bold text-[#333]">张姗姗</h3>

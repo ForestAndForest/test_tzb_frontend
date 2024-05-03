@@ -13,7 +13,7 @@
                 <img
                   alt="@username"
                   class="aspect-square h-full w-full"
-                  src="/images.jpg"
+                  src="/src/assets/images.jpg"
                 />
               </span>
               <div>
@@ -73,7 +73,7 @@
                 alt="DIY手工艺术品"
                 class="rounded-lg"
                 height="400"
-                src="/images12.jpg"
+                src="/src/assets/images12.jpg"
                 style="aspect-ratio: 600 / 400; object-fit: cover"
                 width="600"
               />
@@ -102,7 +102,7 @@
                   <img
                     alt="@username"
                     class="aspect-square h-full w-full"
-                    src="/123.jpg"
+                    src="/src/assets/123.jpg"
                   />
                 </span>
                 <div>
@@ -122,7 +122,7 @@
                   <img
                     alt="@username"
                     class="aspect-square h-full w-full"
-                    src="/1.jpg"
+                    src="/src/assets/1.jpg"
                   />
                 </span>
                 <div>

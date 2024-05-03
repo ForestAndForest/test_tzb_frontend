@@ -54,7 +54,7 @@ const show = ref(false);
                       alt="DIY手工艺术品"
                       class="rounded-md"
                       height="64"
-                      src="/tchp.jpeg"
+                      src="/src/assets/tchp.jpeg"
                       style="aspect-ratio: 64 / 64; object-fit: cover"
                       width="64"
                     />
@@ -90,7 +90,7 @@ const show = ref(false);
                       alt="DIY手工艺术品"
                       class="rounded-md"
                       height="64"
-                      src="/md.webp"
+                      src="/src/assets/md.webp"
                       style="aspect-ratio: 64 / 64; object-fit: cover"
                       width="64"
                     />
@@ -126,7 +126,7 @@ const show = ref(false);
                       alt="DIY手工艺术品"
                       class="rounded-md"
                       height="64"
-                      src="/gj.webp"
+                      src="/src/assets/gj.webp"
                       style="aspect-ratio: 64 / 64; object-fit: cover"
                       width="64"
                     />

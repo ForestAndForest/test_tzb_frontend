@@ -10,7 +10,7 @@
           <div class="flex items-center justify-between">
             <div class="flex items-center space-x-4">
               <span class="relative flex shrink-0 overflow-hidden rounded-full w-10 h-10 border">
-                <img class="aspect-square h-full w-full" alt="@username" src="/images.jpg" />
+                <img class="aspect-square h-full w-full" alt="@username" src="/src/assets/images.jpg" />
               </span>
               <div>
                 <h3 class="text-lg font-bold text-[#333]">张姗姗</h3>

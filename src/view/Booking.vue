@@ -12,7 +12,7 @@
           alt="三星堆旅游图"
           class="rounded-md shadow-2xl"
           height="400"
-          src="/lxt.webp"
+          src="/src/assets/lxt.webp"
           style="aspect-ratio: 600 / 400; object-fit: cover"
           width="600"
         />

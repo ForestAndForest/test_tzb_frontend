@@ -21,9 +21,9 @@ defineProps<{ data: Item }>();
 
 <template>
   <div
+    class="shrink-0 bg-gray-100 h-[1px] w-full my-4"
     data-orientation="horizontal"
     role="none"
-    class="shrink-0 bg-gray-100 h-[1px] w-full my-4"
   ></div>
   <tr
     class="border-b transition-colors hover:bg-gray-200/50 data-[state=selected]:bg-muted"
@@ -68,8 +68,8 @@ defineProps<{ data: Item }>();
     </td>
     <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
       <button
-        style="border: 1px solid #c2c2c2"
         class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3"
+        style="border: 1px solid #c2c2c2"
       >
         查看详情
       </button>

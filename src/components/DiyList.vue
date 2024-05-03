@@ -1,6 +1,8 @@
 <script lang="ts" setup>
 import DIyListItem from "./DIyListItem.vue";
 
+import TCHP from "../assets/tchp.jpeg";
+
 const list = [
   {
     id: 0,
@@ -9,7 +11,7 @@ const list = [
     number: 1,
     date: "2024-5-4",
     status: 0,
-    image: "/tchp.jpeg",
+    image: TCHP,
   },
 ];
 </script>

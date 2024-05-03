@@ -30,7 +30,7 @@
         订单号:2f8a3eabf3c094b5c8e1538fbde667dc
       </h3>
       <div style="margin: 20px auto; width: max-content">
-        <img src="../../public/qr.png" />
+        <img src="../assets/qr.png" />
       </div>
       <div
         style="
@@ -40,7 +40,7 @@
           color: #d55656;
         "
       >
-        ¥ 59.99
+        ¥ 163.93
       </div>
       <button id="confirmPayment" class="payment-button">我已完成支付</button>
     </div>

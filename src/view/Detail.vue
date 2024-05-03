@@ -16,7 +16,7 @@ import Footer from "../components/Footer.vue";
             alt="黄金面具"
             class="rounded-md"
             height="400"
-            src="/jmj.jpg"
+            src="/src/assets/jmj.jpg"
             style="aspect-ratio: 500 / 400; object-fit: cover"
             width="500"
           />
