@@ -1,11 +1,6 @@
-<script lang="ts" setup>
-import Header from "../components/Header.vue";
-import Footer from "../components/Footer.vue";
-import Pay from "./Pay.vue";
-</script>
+<script lang="ts" setup></script>
 
 <template>
-  <Header />
   <section
     class="bg-[#f5f5f5] py-12 px-4 md:px-8 lg:px-12"
     style="min-height: calc(100vh - 273px)"
@@ -15,7 +10,7 @@ import Pay from "./Pay.vue";
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <img
           alt="三星堆旅游图"
-          class="rounded-md"
+          class="rounded-md shadow-2xl"
           height="400"
           src="/lxt.webp"
           style="aspect-ratio: 600 / 400; object-fit: cover"
@@ -87,7 +82,6 @@ import Pay from "./Pay.vue";
       </div>
     </div>
   </section>
-  <Footer />
 </template>
 
 <style scoped></style>

@@ -4,15 +4,20 @@ import IconLogo from "./IconLogo.vue";
 
 <template>
   <header
-    class="py-6 px-4 md:px-8 lg:px-12"
+    class="py-2 px-4 md:px-8 lg:px-12"
     style="
-      background-color: #dedcdc;
-      box-shadow: 5px 5px 5px rgba(157, 157, 157, 0.02);
+      position: sticky;
+      top: 0;
+      z-index: 9999;
+      background-color: white;
+      box-shadow: 5px 5px 5px rgba(126, 123, 123, 0.16);
     "
   >
+    <div class="container mx-auto">
+      <IconLogo />
+    </div>
     <div class="container mx-auto flex items-center justify-between">
       <div class="flex items-center space-x-8">
-        <IconLogo />
         <nav class="hidden md:flex items-center space-x-6">
           <RouterLink
             active-class="active"
@@ -34,6 +39,27 @@ import IconLogo from "./IconLogo.vue";
             to="/diy"
           >
             DIY馆
+          </RouterLink>
+          <RouterLink
+            active-class="active"
+            class="text-[#666] hover:text-[#333] font-medium"
+            to="/share"
+          >
+            DIY分享交流
+          </RouterLink>
+          <RouterLink
+            active-class="active"
+            class="text-[#666] hover:text-[#333] font-medium"
+            to="/shopping"
+          >
+            我的购物车
+          </RouterLink>
+          <RouterLink
+            active-class="active"
+            class="text-[#666] hover:text-[#333] font-medium"
+            to="/me"
+          >
+            个人中心
           </RouterLink>
         </nav>
       </div>
@@ -59,9 +85,19 @@ import IconLogo from "./IconLogo.vue";
         </button>
       </div>
       <div class="flex items-center space-x-4">
-        <span style="font-style: italic; color: #606060">
-          探索这个神秘而富有魅力的古老文化</span
-        >
+        <div class="flex items-center space-x-4">
+          <a
+            class="bg-[#007bff] text-white px-4 py-2 rounded-md hover:bg-[#0056b3]"
+            href="#"
+          >
+            登录 </a
+          ><a
+            class="bg-[#28a745] text-white px-4 py-2 rounded-md hover:bg-[#1e7e34]"
+            href="#"
+          >
+            预约参观
+          </a>
+        </div>
       </div>
     </div>
   </header>

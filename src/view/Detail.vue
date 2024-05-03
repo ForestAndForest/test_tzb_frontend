@@ -4,7 +4,6 @@ import Footer from "../components/Footer.vue";
 </script>
 
 <template>
-  <Header />
   <section
     class="bg-[#f5f5f5] py-12 px-4 md:px-8 lg:px-12"
     style="min-height: calc(100vh - 273px)"
@@ -56,7 +55,6 @@ import Footer from "../components/Footer.vue";
       </div>
     </div>
   </section>
-  <Footer />
 </template>
 
 <style scoped></style>
