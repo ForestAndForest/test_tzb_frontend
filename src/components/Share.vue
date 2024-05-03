@@ -1,4 +1,5 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+</script>
 
 <template>
   <section class="py-12 px-4 md:px-8 lg:px-12">
@@ -13,7 +14,7 @@
               </span>
               <div>
                 <h3 class="text-lg font-bold text-[#333]">张姗姗</h3>
-                <p class="text-[#666] text-sm">2023-05-4</p>
+                <p class="text-[#666] text-sm">2024-05-4</p>
               </div>
             </div>
             <button style="border: 1px solid #c2c2c2" class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">
@@ -36,15 +37,15 @@
             </button>
           </div>
           <div class="grid gap-4">
-            <div class="bg-gray-100 rounded-lg p-4">
+            <div class="bg-gray-100 rounded-lg p-4 cursor-pointer hover:bg-gray-200" @click="$router.push('/shareDetail')">
               <h3 class="text-lg font-bold text-[#333] mb-2">我的陶瓷花瓶制作心得</h3>
               <p class="text-[#666] leading-relaxed"> 在DIY陶瓷花瓶的过程中,我学到了很多新的技能。首先是掌握塑形的基本技巧,通过反复练习,我逐渐掌握了如何用双手塑造出理想的形状。</p>
             </div>
-            <div class="bg-gray-100 rounded-lg p-4">
+            <div class="bg-gray-100 rounded-lg p-4 cursor-pointer hover:bg-gray-200" @click="$router.push('/shareDetail')">
               <h3 class="text-lg font-bold text-[#333] mb-2">木雕摆件制作分享</h3>
               <p class="text-[#666] leading-relaxed">在DIY木雕摆件的</p>
             </div>
-            <div class="bg-gray-100 rounded-lg p-4">
+            <div class="bg-gray-100 rounded-lg p-4 cursor-pointer hover:bg-gray-200" @click="$router.push('/shareDetail')">
               <h3 class="text-lg font-bold text-[#333] mb-2">编织挂饰制作心得</h3>
               <p class="text-[#666] leading-relaxed">在DIY编织挂</p>
             </div>

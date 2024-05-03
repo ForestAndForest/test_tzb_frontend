@@ -1,6 +1,12 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { ref } from "vue";
+import Pay from "./Pay.vue";
+
+const show = ref(false);
+</script>
 
 <template>
+  <Pay v-if="show" />
   <section class="py-12 px-4 md:px-8 lg:px-12">
     <div class="container mx-auto">
       <h2 class="text-2xl font-bold text-[#333] mb-4">购物车</h2>
@@ -164,6 +170,7 @@
           </div>
           <div class="flex justify-center items-center">
             <button
+              @click="show = true"
               class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2"
               style="
                 padding: 10px;
