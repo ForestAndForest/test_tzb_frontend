@@ -8,9 +8,9 @@
         <p class="text-[#ccc] leading-relaxed">
           地址: 四川省广汉市三星堆大道
           <br />
-          电话: 028-8888-8888
+          电话: 17883369582
           <br />
-          邮箱: sanxingdui@sanxingdui.com
+          邮箱: acr.gyre@qq.com
         </p>
       </div>
       <div>

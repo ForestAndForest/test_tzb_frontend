@@ -13,8 +13,24 @@ import IconLogo from "./IconLogo.vue";
       box-shadow: 5px 5px 5px rgba(126, 123, 123, 0.16);
     "
   >
+    <img
+      src="../assets/logo1.png"
+      alt=""
+      style="
+        top: 10px;
+        left: 50px;
+        height: 80px;
+        width: 80px;
+        position: absolute;
+      "
+    />
     <div class="container mx-auto">
-      <IconLogo />
+      <!--      <IconLogo />-->
+      <img
+        src="../assets/gyxs-removebg-preview.png"
+        alt=""
+        style="transform: translateX(-22px)"
+      />
     </div>
     <div class="container mx-auto flex items-center justify-between">
       <div class="flex items-center space-x-8">
